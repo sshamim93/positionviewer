@@ -1,0 +1,44 @@
+{
+  "name": "express-cassandra-starter",
+  "version": "1.0.3",
+  "description": "Express-Cassandra node.js webservice starter package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha tests/tests.js || exit 0",
+    "nsp": "node ./node_modules/nsp/bin/nsp check",
+    "start": "node index.js"
+  },
+  "pre-commit": [
+    "nsp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanweal/express-cassandra-starter.git"
+  },
+  "keywords": [
+    "webservice",
+    "cassandra"
+  ],
+  "author": "Ryan Weal",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "cassandra-driver": "^3.5.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "jsonwebtoken": "^8.3.0",
+    "limits": "^1.0.0",
+    "node-esapi": "0.0.1",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nsp": "^3.2.1",
+    "pre-commit": "^1.2.2",
+    "request": "^2.88.2"
+  }
+}
