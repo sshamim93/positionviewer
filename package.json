@@ -25,7 +25,7 @@
     "ag-grid-angular": "^23.2.1",
     "ag-grid-community": "^23.2.1",
     "bootstrap": "^4.5.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "lodash.debounce": "^4.0.8",
     "ng2-slim-loading-bar": "^4.0.0",
     "rxjs": "~6.4.0",
